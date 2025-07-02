@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>hello</title>
+  <link rel="stylesheet" href="known.css">
+<style>
+#designs {
+  width: 80%;
+  margin: 0 auto;
+}
+#control {
+  /* add flexbox */
+  /* add equal space between the 3 flex items */
+  /* center them vertically */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+width: 100%;
+  padding: 28px 0;
+}
+#control ul {
+  display: flex;
+  gap: 14px;
+  list-style-type: none;
+}
+#collection {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px 22px;
+}
+.design-desc {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.design-desc-left, .design-desc-right {
+  display: flex;
+  align-items: center;
+}
+.thumbnail {
+  aspect-ratio: 4/3; /* width/height ratio */
+  width: 100%;
+}
+.profile-pic {
+  aspect-ratio: 1;
+  width: 25px;
+}
+  </style>
+</head>
+<body>
+ <section id="designs">
+  <div id="control">...</div>
+  <div id="collection">
+    <div class="design">...</div>
+    <div class="design">...</div>
+    <div class="design">...</div>
+    <div class="design">...</div>
+    <div class="design">...</div>
+  </div>
+</section>
+<div id="control">
+  <select>
+    <option value="popular">Popular</option>
+    <option value="new">New & Noteworthy</option>
+    <option value="goods">Goods for Sale</option>
+  </select>
+  <ul>
+    <li>All</li>
+    <li>Animation</li>
+    <li>Branding</li>
+    <li>Illustration</li>
+    <li>Mobile</li>
+    <li>Print</li>
+    <li>Product Design</li>
+    <li>Typography</li>
+    <li>Web Design</li>
+  </ul>
+  <button>Filters</button>
+</div>
+<div class="design">
+  <img src="C:\Users\Admin\Videos\Pictures\Screenshots">
+  <div class="design-desc">
+    <div class="design-desc-left">
+      <img src="C:\Users\Admin\Videos\Pictures\Screenshots">
+      <p>Tsaqif Ammar</p>
+    </div>
+    <div class="design-desc-right">
+      <div>&#10084; 114</div>  
+      <div>&#128065; 11.6k</div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

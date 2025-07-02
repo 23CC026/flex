@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+ 
+  <style>
+    .gridContainer {
+      display: grid;
+      grid-template-columns:repeat(3, 1fr);
+      grid-template-rows: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .Items {
+      background-color: lightblue;
+      padding: 20px;
+      text-align: center;
+      border: 2px solid #ccc;
+    }
+  </style>
+</head>
+<body>
+  <div class="gridContainer">
+    <div class="Items">1</div>
+    <div class="Items">2</div>
+    <div class="Items">3</div>
+    <div class="Items">4</div>
+    <div class="Items">5</div>
+    <div class="Items">1</div>
+    <div class="Items">2</div>
+    <div class="Items">3</div>
+    <div class="Items">4</div>
+  </div>
+</body>
+</html>
